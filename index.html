@@ -27,6 +27,9 @@
     <!-- Custom styles for this template -->
     <link href="./css/creative.css" rel="stylesheet">
 
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -60,7 +63,7 @@
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
+          <div id="headertext" class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
               <strong>Authentic Artistic Ventures</strong>
             </h1>
@@ -70,8 +73,9 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p><strong>Custom Student Art at a Fair Price</strong></p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#aboutus">About US</a>
+            <p id="headertext"><strong>Custom Student Art at a Fair Price</strong></p>
+            <br>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#aboutus">About Us</a>
           </div>
         </div>
       </div>
@@ -81,15 +85,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">About US</h2>
+            <h2 class="section-heading text-white">About Us</h2>
             <hr class="light my-4">
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <p class="text-faded mb-4">We are a group of students that is looking to work with art students to supply commissioned art for local businesses. We have businesses interested in working with us already and are looking for art students to produce the pieces in return for monetary compensation and brand exposure. Our ultimate goal is to work with the artists to help them develop and gain experience producing practical commissioned art while supplying the local area with custom, unique pieces for their businesses. </p>
+          <div class="col-lg-12 text-center">          
+            <p class="text-faded mb-4">We are a dedicated group of individuals looking to create a bridge between the vast number of businesses in need of creative services and the sea of hungry art and design students looking for their first jobs. We handle all the icky stuff- the communication between artist and business, and the contracting. Our ultimate goal is to help as many student artists as we can to get started in their careers by building a unique and targeted body of work that speaks to the efficacy and quality of their work.</p>
+            <p class="text-faded mb-4"><strong>For the client:</strong> We provide the highest quality student art possible at a competitive price. To provide you with the highest quality work possible, we pair your job with a student artist who understands your business’s unique style and flair from our diverse portfolio of artists. Your commissioned project will be completed professionally and pain-free - we speak with the artist and direct the project, all you have to do is tell us what you want!</p>
+            <p class="text-faded mb-4"><strong>For the artists:</strong> We provide a prestigious and powerful vantage point from which to create. We get to know you and your work. Once we know who you are and what you’re capable of we assign curated tasks to you that will fit your qualifications specifically. This is different from a design collective in that we are doing the work of going out in the field and finding the jobs- so you get more time to focus more on what you’re good at! With our services you get exposure, payment, and experience.</p>
           </div>
         </div>
         <div class="row">
@@ -143,50 +149,43 @@
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <!-- <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i> -->
-              <img id="card" src="./img/redskip.png" style="height:150px;width:auto;">
-              <h3 class="mb-3">Artist 1</h3>
-              <p class="text-muted mb-0">Description</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <!-- <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i> -->
-              <img id="card" src="./img/bluedraw2.png" style="height:150px;width:auto;">
-              <h3 class="mb-3">Artist 2</h3>
-              <p class="text-muted mb-0">Description</p>
+              <img id="card" src="./img/victoria.jpeg" style="height:300px;width:auto;">
+              <br>
+              <h3 class="mb-3">Victoria</h3>
+              <p class="text-muted mb-0">I am a painter, illustrator, and graphic designer currently pursuing a BA at the University of Michigan Penny Stamps School of Art and Design with a minor in Art History. When I’m not in my studio painting, you can find me exploring museums, discovering new artists on Instagram, hanging out with my friends and family, or doodling on any piece of paper I can get my hands on.</p>
+              <br>
+              <p class="text-muted mb-0">https://www.victoriabornstein.com</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <!-- <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i> -->
-              <img id="card" src="./img/greenreverse.png" style="height:150px;width:auto;">
-              <h3 class="mb-3">Artist 3</h3>
-              <p class="text-muted mb-0">Description</p>
+              <img id="card" src="./img/courtney.jpg" style="height:300px;width:auto;">
+              <br>
+              <h3 class="mb-3">Courtney</h3>
+              <p class="text-muted mb-0">Courtney Ignace is a illustrator and painter native to northern Michigan. Courtney’s work aims to create dialogue on social spaces, food, sustainability, and humor. Her favorite mediums are oil paint, ink, and watercolor. She is currently studying for her BFA in art and design and the University of Michigan.</p>
+              <br>
+              <p class="text-muted mb-0">https://courtneyignace.portfoliobox.net/</p>
             </div>
           </div>
-          <!-- <div class="col-lg-6 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto"> -->
-              <!-- <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i> -->
-              <!-- <img id="card" src="./img/wild.png" style="height:150px;width:auto;">
-              <h3 class="mb-3">Wild</h3>
-              <p class="text-muted mb-0">This card represents all four colors, and can be placed on any card. The color will be chosen for you based on the most frequest color in your hand. It can be played regardless of whether another card is available.</p>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <!-- <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i> -->
+              <img id="card" src="./img/ophelia.jpg" style="height:300px;width:auto;">
+              <br>
+              <h3 class="mb-3">Ophelia</h3>
+              <p class="text-muted mb-0">Artist, painter, traveler. I am a current Junior at the University of Michigan pursuing a BFA in Art and Design and a BA in International Studies. I was born and raised in the Greater Boston Area, and I have been oil painting and drawing for over ten years. Along the way I have picked up a mixture of other skills, and I am always on the look-out for a good conversation. My work is scattered with explorations of different mediums and techniques along with the human figure. I am constantly fascinated by parallel relationships between the edges in a painting, the figure and ground, and between a story and its audience.</p>
+              <br>
+              <p class="text-muted mb-0">https://odeng5.wixsite.com/odeng</p>
             </div>
-          </div> -->
-          <!-- <div class="col-lg-6 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto"> -->
-              <!-- <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i> -->
-<!--               <img id="card" src="./img/wild-draw-4.png" style="height:150px;width:auto;">
-              <h3 class="mb-3">Wild Draw Four</h3>
-              <p class="text-muted mb-0">This acts just like the wild card except that the next player also has to draw four cards as well as forfeit his/her turn.</p>
-            </div>
-          </div> -->
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <br>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#gallery">Gallery</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#gallery">Completed Work</a>
           </div>
         </div>
       </div>
@@ -197,7 +196,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-white">Gallery</h2>
+            <h2 class="section-heading text-white">Completed Work</h2>
             <hr class="light my-4"><br>
           </div>
         </div>
@@ -210,19 +209,19 @@
           </div>
         </div> -->
         <div class="row">
-          <div class="col-lg-4 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/background1.png" style="height:150px;width:auto;">
+              <img id="card" src="./img/sloungeflyer.png" style="height:400px;width:auto;">
               <h3 class="mb-3 text-white">Description</h3>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/background2.png" style="height:150px;width:auto;">
+              <img id="card" src="./img/bluelepflyer.png" style="height:400px;width:auto;">
               <h3 class="mb-3 text-white">Description</h3>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
+<!--           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img id="card" src="./img/background3.png" style="height:150px;width:auto;">
               <h3 class="mb-3 text-white">Description</h3>
@@ -245,61 +244,14 @@
               <img id="card" src="./img/background6.png" style="height:150px;width:auto;">
               <h3 class="mb-3 text-white">Description</h3>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <hr class="light my-4"><br>
-            <h3 class="section-heading text-white">Card Backgrounds</h3>
-            <hr class="light my-4">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/cardback1.png" style="height:150px;width:auto;">
-              <h3 class="mb-3 text-white">Standard UNO</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/cardback2.png" style="height:150px;width:auto;">
-              <h3 class="mb-3 text-white">Professor Ackerman</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/cardback3.png" style="height:150px;width:auto;">
-              <h3 class="mb-3 text-white">Michigan Block M</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/cardback4.png" style="height:150px;width:auto;">
-              <h3 class="mb-3 text-white">Magic</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/cardback5.png" style="height:150px;width:auto;">
-              <h3 class="mb-3 text-white">Standard Blue</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img id="card" src="./img/cardback6.png" style="height:150px;width:auto;">
-              <h3 class="mb-3 text-white">Standard Red</h3>
-            </div>
-          </div>
-        </div>
-      </div> -->
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <br>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact US</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact Us</a>
           </div>
         </div>
       </div>
@@ -318,7 +270,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <p>
-              <a class="text-muted" href="mailto:AAVentures@umich.edu">AAVentures@umich.edu</a>
+              <a class="text-muted" href="mailto:contactaaventures@gmail.com">contactaaventures@gmail.com</a>
             </p>
           </div>
         </div>
